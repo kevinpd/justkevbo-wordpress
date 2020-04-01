@@ -1,0 +1,84 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container {
+    width: 900px;
+}
+header {
+    background-color: rgba(15, 15, 15, 0.945);
+    width: 100vw;
+    height: 130px;
+}
+header .top-bar {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+header .top-bar li a {
+    padding: .5rem 1.5rem;
+    color: white;
+    border: solid 2px rgba(235, 235, 235, 0);
+}
+header .top-bar li a:hover {
+    border: solid 2px rgba(235, 235, 235, 1);
+    transition: all 500ms ease-in-out;
+}
+header .container {
+    display: grid;
+    grid-template-rows: 1fr 1fr ;
+    height: 100%;
+}
+header .container .container__logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+}
+header .container__menu {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    text-align: center;
+}
+/* Blog posts archive code */
+.card:hover {
+    border: 1px black solid;
+    transition: all 500ms ease-in;
+}
+.card-body {
+    color: black;
+}
+.card-body:hover {
+    background-color: rgb(241, 232, 204);
+    color: rgb(32, 32, 32);
+    text-decoration: none;
+    transition: all 500ms ease-in;
+}
+.btn {
+    background-color: rgb(32, 32, 32);
+    border: 1px rgb(32,32,32) solid;
+}
+.btn:hover {
+    background-color: rgb(211, 190, 133);
+    border: 1px rgb(32, 32, 32) solid;
+    color: black;
+}
+/* Footer code*/
+footer {
+    background-color: rgb(20, 20, 20);
+    width: 100vw;
+}
+footer .copyright {
+    text-align: center;
+    color: rgb(228, 228, 228);
+    margin: 0;
+    padding: .5rem 0;
+}
+/* Classes for client adding */
+.p-spacing {
+    padding: 0 1rem;
+}
